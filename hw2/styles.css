@@ -1,1 +1,161 @@
 /* Add your code here */
+#Main-Header {
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin: 30px 0px;
+  padding: 0;
+  background-color: black;
+}
+
+.navbar li a {
+  display: block;
+  padding: 1rem 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: purple;
+}
+
+/*Card*/
+
+.card {
+  width: 250px; /* smaller width */
+  height: auto; /* taller height */
+  border: 1px solid #ccc; /* light gray border */
+  /*border-radius: 8px;           rounded corners */
+  padding: 16px; /* space inside the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  background-color: white;
+  text-align: center;
+  gap: ;
+  /* center text and button */
+}
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card p {
+  font-size: 1rem;
+  text-align: left;
+  color: dark rgb(95, 93, 93);
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  padding: 10px 77px;
+}
+
+.card button:hover {
+  background-color: purple;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* space between cards */
+}
+
+/*--Table--*/
+
+.table-group th,
+.table-group td {
+  padding: 10px 10px;
+}
+
+.table-group table {
+  width: 100%;
+  max-width: 800px;
+  table-layout: auto; /* allows columns to size naturally */
+  margin: 50px auto;
+}
+
+.table-group table thead th {
+  background-color: black;
+  color: white;
+}
+
+.table-group th[scope="row"] {
+  background-color: purple;
+  color: white;
+}
+
+.table-group tr:hover {
+  background-color: gold;
+}
+
+/*form */
+form {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  width: 400px;
+  margin: 30px auto;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form .form-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+form p {
+  font-weight: normal;
+  margin-top: -20px;
+  color: gray;
+}
+
+form fieldset {
+  border: none;
+}
+form legend {
+  font-weight: bold;
+}
+form .form-input-group {
+  margin-top: -7px;
+  font-weight: normal !important;
+}
+
+form .button-input,
+form .button-input label {
+  margin-top: 0px;
+  font-weight: normal !important;
+}
+
+form [type="submit"] {
+  background-color: black;
+  color: white;
+}
+
+form [type="reset"] {
+  background-color: white;
+  color: black;
+}
+
+form [type="reset"],
+form [type="submit"] {
+  padding: 10px 67px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form [type="submit"]:hover {
+  background-color: purple;
+}
+
+form [type="reset"]:hover {
+  background-color: gold;
+}

@@ -5,10 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>02 - Webpage</title>
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
+  <h1 id="Main-Header">Homework 2</h1>
   <body>
-    <!-- Add your code here -->
+    <!--NAVBAR-->
+    <nav>
+      <div class="navbar-container">
+        <ul class="navbar">
+          <li><a href="#">Ex01</a></li>
+          <li><a href="#">Ex02</a></li>
+          <li><a href="#">Ex03</a></li>
+          <li><a href="#">Ex04</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--CARD-->
+    <div class="card-container">
+      <div class="card">
+        <h3>Card #1</h3>
+        <img src="https://placebear.com/200/300" alt="Picture of a bear" />
+        <p>
+          Bears are powerful yet surprisingly agile creatures that roam forests,
+          mountains, and tundras across the Northern Hemisphere. Despite their
+          bulky appearance, many species—like the grizzly—can run at speeds up
+          to 35 miles per hour and climb trees with ease.
+        </p>
+        <button>More Info</button>
+      </div>
+      <div class="card">
+        <h3>Card #2</h3>
+        <img src="https://placebear.com/200/300" alt="Picture of a bear" />
+        <p>
+          Bears are powerful yet surprisingly agile creatures that roam forests,
+          mountains, and tundras across the Northern Hemisphere. Despite their
+          bulky appearance, many species—like the grizzly—can run at speeds up
+          to 35 miles per hour and climb trees with ease.
+        </p>
+        <button>More Info</button>
+      </div>
+      <div class="card">
+        <h3>Card #3</h3>
+        <img src="https://placebear.com/200/300" alt="Picture of a bear" />
+        <p>
+          Bears are powerful yet surprisingly agile creatures that roam forests,
+          mountains, and tundras across the Northern Hemisphere. Despite their
+          bulky appearance, many species—like the grizzly—can run at speeds up
+          to 35 miles per hour and climb trees with ease.
+        </p>
+        <button>More Info</button>
+      </div>
+    </div>
+    <!--TABLE-->
+    <div class="table-group">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Time/Channels</th>
+            <th>8:00 PM</th>
+            <th>9:00 PM</th>
+            <th>10:00 PM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">ABC</th>
+            <td>The Goldbergs</td>
+            <td>Home Economics</td>
+            <td>black-ish</td>
+          </tr>
+          <tr>
+            <th scope="row">CBS</th>
+            <td>Young Sheldon</td>
+            <td>United States of AI</td>
+            <td>Mom</td>
+          </tr>
+          <tr>
+            <th scope="row">NBC</th>
+            <td colspan="3">Stanley Cup Playoffs</td>
+          </tr>
+          <tr>
+            <th scope="row">Fox</th>
+            <td>Beat Shazam</td>
+            <td colspan="2">Local Programming</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--FORM-->
+    <div class="form">
+      <form action="">
+        <h2>Sign Up Form</h2>
+        <p>Full up the items in the form below.</p>
+        <div class="form-input">
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div class="form-input">
+          <label for="username">Username: </label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-input">
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-input">
+          <label for="password">Password: </label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-input">
+          <label for="date">Date of Birth: </label>
+          <input type="date" name="date" id="date" />
+        </div>
+        <fieldset>
+          <legend>Preferred Pronouns</legend>
+          <div class="form-input-group">
+            <div class="button-input">
+              <input type="radio" name="pronouns" id="she/her" />
+              <label for="she/her">She/Her</label>
+            </div>
+            <div class="button-input">
+              <input type="radio" name="pronouns" id="he/him" />
+              <label for="he/him">He/Him</label>
+            </div>
+            <div class="button-input">
+              <input type="radio" name="pronouns" id="they/them" />
+              <label for="they/them">They/Them</label>
+            </div>
+            <div class="button-input">
+              <input type="radio" name="pronouns" id="na" />
+              <label for="na">I prefer not to say</label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="submit-button">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
   </body>
 </html>
